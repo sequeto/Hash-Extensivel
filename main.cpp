@@ -20,7 +20,7 @@ string geraChavesAleatorias(int n, int modulo){
     }
 
     else{
-        key.append("00");
+        key.append("10");
         for(int i = 2; i<n; i++){
             random = rand() % 1000;
             random = random % 2;
@@ -62,7 +62,7 @@ int main(){
 
     cout << "Selecione uma opcao: " << endl;
     cout << "1 - PseudoChaves aleatorios" << endl;
-    cout << "2 - PseudoChaves aleatorias iniciados com 00" << endl;
+    cout << "2 - PseudoChaves aleatorias iniciados com 10" << endl;
 
     cin >> opcao;
     
